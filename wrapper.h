@@ -1,0 +1,37 @@
+#include <dji/dji_typedef.h>
+#include <dji/dji_error.h>
+#include <dji/dji_core.h>
+#include <dji/dji_logger.h>
+#include <dji/dji_platform.h>
+#include <dji/dji_upgrade.h>
+#include <dji/dji_version.h>
+
+#include <dji/dji_aircraft_info.h>
+#include <dji/dji_camera_manager.h>
+#include <dji/dji_fc_subscription.h>
+#include <dji/dji_flight_controller.h>
+#include <dji/dji_gimbal_manager.h>
+#include <dji/dji_gimbal.h>
+#include <dji/dji_high_speed_data_channel.h>
+#include <dji/dji_hms_customization.h>
+#include <dji/dji_hms_info_table.h>
+#include <dji/dji_hms_manager.h>
+#include <dji/dji_hms.h>
+#include <dji/dji_interest_point.h>
+#include <dji/dji_liveview.h>
+#include <dji/dji_low_speed_data_channel.h>
+#include <dji/dji_mop_channel.h>
+#include <dji/dji_payload_camera.h>
+#include <dji/dji_perception.h>
+#include <dji/dji_positioning.h>
+#include <dji/dji_power_management.h>
+#include <dji/dji_time_sync.h>
+#include <dji/dji_waypoint_v3.h>
+#include <dji/dji_widget.h>
+#include <dji/dji_xport.h>
+
+#include "osal.h"
+#include "osal_socket.h"
+#include "osal_fs.h"
+#include "hal_uart.h"
+#include "hal_network.h"
